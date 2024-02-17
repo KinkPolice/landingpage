@@ -1,4 +1,39 @@
+@font-face {
+    font-family: 'Hero';
+    src: url(./font/Hero-Regular.ttf)format(ttf);
+}
+
 .body{
 height: 100vh;
-font-family: Hero-Regular, Hero-Bold, Hero-Light;
+font-family: 'Hero';
+}
+
+.logo{
+    color:#F9FAF8;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding-left: 8px;
+}
+
+.a{
+    display: flex;
+    color:#E5E7EB;
+
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.HeaderLeft{
+    display: flex;
+
+}
+
+
+.HeaderContent{
+    display: flex;
 }
