@@ -5,21 +5,26 @@
      font-weight: 400;
 }
 
+.body{
+height: 100vh;
+font-family: 'Hero';
+display: flex;
 body{
     height: 100vh;
     font-family: 'Hero';
 }
 
+
 .logo{
     color:#F9FAF8;
-    display: flex;
-    justify-content: flex-start;
-    align-self: flex-start;
     padding-left: 8px;
 }
 
 .a{
     display: flex;
+    justify-content: flex-end;
+
+
     color:#E5E7EB;
 
 }
@@ -30,12 +35,17 @@ body{
     color: #F9FAF8;
 }
 
+.HeaderContent{
+    display: flex;
+}
+
 .HeaderLeft{
     display: flex;
 
 }
 
-
-.HeaderContent{
+.img{
     display: flex;
 }
+
+
