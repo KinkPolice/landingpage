@@ -1,11 +1,13 @@
 @font-face {
     font-family: 'Hero';
-    src: url(./font/Hero-Regular.ttf)format(ttf);
+    src: url('./font/Hero-Regular.ttf');
+    font-style: normal;
+     font-weight: 400;
 }
 
-.body{
-height: 100vh;
-font-family: 'Hero';
+body{
+    height: 100vh;
+    font-family: 'Hero';
 }
 
 .logo{
