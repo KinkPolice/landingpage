@@ -137,7 +137,6 @@ span,
    }
 
    .quoteAll{
-    width:100%;
     background-color:#e5E7Eb;
     color: #1f2937;
     margin-top: 30px;
@@ -146,8 +145,8 @@ span,
 
    .quote{
     padding: 50px;
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 100px;
     margin-left:400px;
     margin-right:400px;
     font-style: italic;
@@ -167,18 +166,18 @@ span,
    }
 
 
+
+
+.Action{
+    background-color: white;
+}
+
+
    .blue{
     display: flex;
     justify-content: center;
     padding: 80px;
    }
-
-.action{
-    background-color: white;
-    color:#1F2937;
-    display: flex;
-    width: 100%;
-}
 
    .call{
     background-color: #3882F6;
@@ -187,22 +186,37 @@ span,
     width: 1000px;
     height: 150px;
     display: flex;
-    align-self: center;
- 
-
+    padding: 8px;
    }
    
-   .calltext{
+   .bttnbox{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    padding: 56px;
+   }
+
+   .signup{
+    border: solid white;
+    color: white;
+    border-radius: 8px;
+    flex-shrink: 0;
+   }
+
+
+   .calltext{
+    padding: 8px;
+    margin: 32px;
+    margin-left: 90px;
+    flex-grow: 3;
    }
 
 
    .calltext p{
     font-size: 18px;
+    margin: 0;
    }
 
-   .call button{
-    display: flex;
-    justify-content: flex-end;
+
+   .footer{
+    align-self: center;
    }
