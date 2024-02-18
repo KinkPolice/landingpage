@@ -55,6 +55,7 @@ button{
     background-color: #3882F6; 
     border: none;
     color: white;
+    font-weight: 700;
     padding: 8px 24px;
     text-align: center;
     text-decoration: none;
@@ -69,7 +70,7 @@ img{
     width: auto;
     padding: 80px;
     flex-shrink: 0;
-    margin-right:300px;
+    margin-right:200px;
 }
 
 
@@ -80,9 +81,10 @@ img{
 }
 
 .headerLeft{
+    color:#F9FAF8;
     flex-wrap: wrap;
     width: 50%;
-    margin-left: 300px;
+   margin-left: 200px;
     padding: 80px;
 }
 
@@ -91,3 +93,116 @@ span,
     font-size: 18px;
     margin-bottom: -10px;
 }
+
+
+
+
+.content{
+    background-color: white;
+    color:#1F2937;
+}
+
+
+.maintext{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+   }
+
+
+   .mod{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 350px;
+    margin-right: 350px;
+   }
+   
+   .box{
+    width: 180px;
+    height: 180px;
+    border: solid #3882F6;
+    border-radius: 15px;
+   }
+
+   .boxtext{
+    width: 180px;
+    height: 180px;
+   }
+
+   .outerbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+
+   .quoteAll{
+    width:100%;
+    background-color:#e5E7Eb;
+    color: #1f2937;
+    margin-top: 30px;
+    font-size: 36px;
+   }
+
+   .quote{
+    padding: 50px;
+    padding-top: 300px;
+    padding-bottom: 200px;
+    margin-left:400px;
+    margin-right:400px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+   }
+
+   #quoteA{
+    margin-left: 550px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-shrink: 0;
+   }
+
+
+   .blue{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+   }
+
+.action{
+    background-color: white;
+    color:#1F2937;
+    display: flex;
+    width: 100%;
+}
+
+   .call{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    align-self: center;
+ 
+
+   }
+   
+   .calltext{
+    display: flex;
+    flex-direction: column;
+   }
+
+
+   .calltext p{
+    font-size: 18px;
+   }
+
+   .call button{
+    display: flex;
+    justify-content: flex-end;
+   }
